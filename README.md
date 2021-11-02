@@ -7,4 +7,4 @@
 8. run ```php artisan schema:dump```
 9. run ```php artisan schema:dump --prune```
 10. run ```php artisan migrate```
-11. run ```php artisan server```
+11. run ```php artisan serve```
