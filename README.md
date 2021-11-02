@@ -1,5 +1,5 @@
-1. run ```install laravel```
-3. run ```install sqlite3```
+1. run install php and laravel
+3. run install sqlite3
 4. run ```cd singhgram```
 5. run ```composer update```
 6. create ```database.sqlite``` file inside database folder
