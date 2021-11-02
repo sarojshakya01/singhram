@@ -9,9 +9,9 @@
 10. run ```php artisan schema:dump```
 11. run ```php artisan schema:dump --prune```
 12. run ```php artisan migrate```
-13. run ```php artisan make:migration create_users_table``` and copy paste the contents from database/migrations_bak/create_users_table.php to newly created migration script file [****[your_time_stamp]_create_users_table.php
-14. run ```php artisan make:migration create_password_resets_table``` and copy paste the contents from database/migrations_bak/create_password_resets_table.php to newly created migration script file [your_time_stamp]_create_password_resets_table.php
-15. run ```php artisan make:migration create_failed_jobs_table``` and copy paste the contents from database/migrations_bak/create_failed_jobs_table.php to newly created migration script file [your_time_stamp]_create_failed_jobs_table.php
+13. run ```php artisan make:migration create_users_table``` and copy paste the contents from database/migrations_bak/create_users_table.php to newly created migration script file database/migrations/[your_time_stamp]_create_users_table.php
+14. run ```php artisan make:migration create_password_resets_table``` and copy paste the contents from database/migrations_bak/create_password_resets_table.php to newly created migration script file database/migrations/[your_time_stamp]_create_password_resets_table.php
+15. run ```php artisan make:migration create_failed_jobs_table``` and copy paste the contents from database/migrations_bak/create_failed_jobs_table.php to newly created migration script file database/migrations/[your_time_stamp]_create_failed_jobs_table.php
 16. run ```php artisan migrate```
 17. run ```php artisan serve```
 
